@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<htlm lang="en"></htlm>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Homepage | Social Media </title>
+    <link rel="stylesheet" href="mystyle.css">
+
+
+
+    <!--Adding a page description-->
+    <meta name="description" content="What is Social Media? Why is it good or bad? Read the articles to find new information that you maybe didn't know before. This onine magazine contains 3 articles about: 1. Advantages&Disadvantages of using social media 2. What to do on social media 3. Other activities you can do on social media.">
+
+</head>
+
+<body class="body_container" >
+
+    <!--I made this div to have a control over my text and my photo-->
+    <div class="wrapper_container">
+
+        <header class="header_container">
+            <nav class="navigation_container">
+
+                <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+                <!-- Top Navigation Menu -->
+                <div class="topnav">
+                    <a href="index.html" class="active">Homepage</a>
+                    <!-- Navigation links (hidden by default) -->
+                    <div id="myLinks">
+                        <a href="Subpages/articles.html">Articles</a>
+                        <a href="#events">Events</a>
+                        <a href="#contact">Contact</a>
+                    </div>
+                    <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+                    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                        <i class="fa fa-bars"></i>
+                    </a>
+
+                </div>
+                <script>
+                    function myFunction() {
+                        var x = document.getElementById("myLinks");
+                        if (x.style.display === "block") {
+                            x.style.display = "none";
+                        } else {
+                            x.style.display = "block";
+                        }
+                    }
+
+                </script>
+            </nav>
+
+
+        </header>
+
+
+
+
+
+    </div>
+    <!-- Adding an image-->
+ <div class="homepage_image_container">
+  <img src="Images/office.jpg" alt="Phone backround" style="width:100%;" class="laptop_image">
+       <div class="centered" style="font-family: serif " >Social Media</div>
+
+</div>
+    <div class="introduction_text">
+        <h1 class="title_text">Living in a world surrounded by technology</h1>
+        <p class="paragraph1">Social Media…what comes in your mind when you hear this words? You might be thinking about social media apps: Facebook, Instagram, Pinterest, Snapchat and so on. But are you thinking about all the sides of what social media means? Social media is a big part of our lives nowadays and all of us should know more about this phenomenon.</p>
+        <br>
+               <img src="Images/FOOTER.png" class="footer_image">
+                 <section class="footer_element_container">
+            <a href="https://www.facebook.com/ralucaandreea.calin.7"><img src="Icons/facebook%20white%20icon.png" alt="Facebook" class="some_image"></a>
+              <a href="https://www.instagram.com/rallu007/"><img src="Icons/instagram%20icon%20white.png" alt="Instagram" class="some_image"></a>
+        </section>
+
+    </div>
+
+
+
+
+
+
+</body>
+
+</html>

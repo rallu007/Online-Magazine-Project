@@ -1,0 +1,107 @@
+.aricle3{
+    padding: 20px;
+    color: darkslategray;
+}
+.title{
+    padding: 20px;
+    font-size: 25px;
+    text-decoration: underline;
+}
+.introduction_text{
+    padding: 20px;
+    color: #F0A16A;
+    font-style: italic;
+    font-size: 16px;
+}
+.hobby{
+    font-size: 20px;
+    font-style: italic;
+    color: darkslategray;
+    padding: 20px;
+}
+.hobby_image{
+    padding: 20px;
+    max-width: 100%;
+}
+.credit{
+    padding: 20px;
+    font-size: 10px;
+    font-style: italic;
+    color: darkslategrey;
+}
+.hobby_text{
+    color: darkslategrey;
+    padding: 20px;
+    font-size: 16px;
+}
+.link{
+    text-decoration: none;
+    color:#F0A16A;
+    font-size: 16px;
+    font-style: italic;
+    text-decoration: underline;
+}
+.book{
+    font-size: 20px;
+    font-style: italic;
+    color: darkslategray;
+    padding: 20px;
+}
+.book_image{
+    padding: 20px;
+    max-width: 100%;
+}
+.book_text{
+       color: darkslategrey;
+    padding: 20px;
+    font-size: 16px;
+
+}
+.friends{
+     font-size: 20px;
+    font-style: italic;
+    color: darkslategray;
+    padding: 20px;
+}
+
+.friends_image{
+      padding: 20px;
+    max-width: 100%;
+}
+.friends_text{
+     color: darkslategrey;
+    padding: 20px;
+    font-size: 16px;
+}
+.list{
+     color: darkslategrey;
+    padding: 50px;
+    font-size: 16px;
+}
+.try{
+         font-size: 20px;
+    font-style: italic;
+    color: darkslategray;
+    padding: 20px;
+}
+.try_image{
+          padding: 20px;
+    max-width: 100%;
+}
+.try_text{
+         color: darkslategrey;
+    padding: 20px;
+    font-size: 16px;
+}
+.footer_image{
+    margin-top: 60px;
+}
+.by{
+padding: 20px;
+font-size: 18px;
+    font-style: italic;
+}
+
+
+
+

@@ -1,0 +1,89 @@
+.article2{
+    padding:20px;
+    color: darkslategray;
+}
+.title{
+    text-decoration:underline;
+    color:black;
+    font-size: 25px;
+    margin-top: 5%;
+}
+.introduction{
+    font-size: 14px;
+    color:#F0A16A;
+    font-style: italic;
+
+}
+.i{
+    padding: 16px;
+}
+.searchevents{
+    font-size: 20px;
+    font-style: italic;
+    margin-left: 4%;
+}
+.searchevents_image{
+    max-width: 90%;
+    margin-left: 4%;
+}
+.credit{
+    margin-left: 4%;
+    font-size: 10px;
+    font-style: italic;
+}
+.searchevents_text{
+    margin-left: 4%;
+    font-size: 14px;
+}
+.follow{
+     font-size: 20px;
+    font-style: italic;
+    margin-left: 4%;
+}
+.follow_image{
+        max-width: 90%;
+    margin-left: 4%;
+}
+.follow_text{
+    margin-left: 4%;
+    font-size: 14px;
+}
+.proud{
+     font-size: 20px;
+    font-style: italic;
+    margin-left: 4%;
+}
+.proud_image{
+       max-width: 90%;
+    margin-left: 4%;
+}
+.proud_text{
+       margin-left: 4%;
+    font-size: 14px;
+}
+.ideas{
+        font-size: 20px;
+    font-style: italic;
+    margin-left: 4%;
+}
+.ideas_image{
+    max-width: 90%;
+    margin-left: 4%;
+}
+.ideas_text{
+      margin-left: 4%;
+    font-size: 14px;
+}
+.footer_image{
+    margin-top: 20%;
+
+}
+.by{
+    margin-left: 4%;
+    font-size: 16px;
+    font-style: italic;
+}
+
+
+
+

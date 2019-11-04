@@ -1,0 +1,181 @@
+.article1 {
+    padding: 20px;
+    color: darkslategrey;
+
+}
+
+.title {
+    color: black;
+    text-decoration: underline;
+    margin-top: 5%;
+    font-size: 30px;
+    margin-left: 4%;
+}
+
+.paragraph1 {
+    color: #F0A16A;
+    font-style: italic;
+    font-size: 16px;
+    margin-top: 4%;
+    text-align: left;
+
+
+
+}
+
+.advantages {
+    text-decoration: underline;
+    font-size: 25px;
+    font-style: italic;
+    margin-top: 35%;
+    margin-left: 4%;
+}
+
+.learning {
+    font-size: 22px;
+    font-style: italic;
+    text-decoration: underline;
+    margin-left: 4%;
+}
+
+.learning_image {
+    max-width: 90%;
+    margin-left: 4%;
+    margin-top: 6px;
+}
+
+.credit {
+    font-size: 9px;
+    margin-left: 4%;
+    font-style: italic;
+}
+
+.learning_text {
+    font-size: 16px;
+    padding: 20px
+}
+
+.touch {
+    margin-left: 4%;
+    font-size: 22px;
+    font-style: italic;
+    text-decoration: underline;
+
+}
+
+.touch_image {
+    max-width: 90%;
+    margin-left: 4%;
+    margin-top: 6px;
+}
+
+.touch_text {
+    font-size: 16px;
+    padding: 20px
+}
+
+.inspiration {
+    margin-left: 4%;
+    font-size: 22px;
+    font-style: italic;
+    text-decoration: underline;
+}
+
+.inspiration_image {
+    max-width: 90%;
+    margin-left: 4%;
+    margin-top: 6px;
+}
+
+.inspiration_text {
+    font-size: 16px;
+    padding: 20px
+}
+
+.events {
+    margin-left: 4%;
+    font-size: 22px;
+    font-style: italic;
+    text-decoration: underline;
+
+}
+
+.events_image {
+    max-width: 90%;
+    margin-left: 4%;
+    margin-top: 6px;
+}
+
+.events_text {
+    font-size: 16px;
+    padding: 20px
+}
+
+.disadvantages {
+    text-decoration: underline;
+    font-size: 25px;
+    font-style: italic;
+    margin-top: 5%;
+    margin-left: 4%;
+}
+
+.addiction {
+    margin-left: 4%;
+    font-size: 22px;
+    font-style: italic;
+    text-decoration: underline;
+}
+
+.addiction_image {
+    max-width: 91%;
+    margin-left: 4%;
+    margin-top: 8px;
+}
+
+.addiction_text {
+    font-size: 16px;
+    padding: 20px
+}
+.hurtful{
+       margin-left: 4%;
+    font-size: 22px;
+    font-style: italic;
+    text-decoration: underline;
+}
+.hurtful_image {
+    max-width: 90%;
+    margin-left: 4%;
+    margin-top: 8px;
+}
+
+.hurtful_text {
+    font-size: 16px;
+    padding: 20px
+}
+
+.stereotype {
+    margin-left: 4%;
+    font-size: 22px;
+    font-style: italic;
+    text-decoration: underline;
+}
+
+.stereotype_image {
+    max-width: 96%;
+    margin-left: 4%;
+    margin-top: 8px;
+    margin-top: 10px;
+}
+
+.stereotype_text {
+    font-size: 16px;
+    padding: 20px
+}
+.by{
+    padding: 20px;
+    text-decoration: underline;
+    font-style: italic;
+}
+.footer_image{
+    margin-top:0%;
+}
