@@ -1,89 +1,217 @@
-.article2{
-    padding:20px;
-    color: darkslategray;
+.article2 {
+    padding: 15px;
+    color: #2D2323;
+    background-image: url(../Images/bckk.jpg);
+    font-family: Arial, Helvetica, sans-serif;
 }
-.title{
-    text-decoration:underline;
-    color:black;
-    font-size: 25px;
+
+.title {
+    text-decoration: underline;
+    color: black;
+    font-size: 30px;
     margin-top: 5%;
+    font-family: 'Lora', serif;
 }
-.introduction{
-    font-size: 14px;
-    color:#F0A16A;
+
+.introduction {
+    font-size: 16px;
+    color: #E25520;
     font-style: italic;
+    text-align: left;
 
 }
-.i{
-    padding: 16px;
-}
-.searchevents{
-    font-size: 20px;
+
+.searchevents {
+    font-size: 22px;
     font-style: italic;
-    margin-left: 4%;
+    text-decoration: underline;
+    margin-top: 6%;
+
 }
-.searchevents_image{
-    max-width: 90%;
-    margin-left: 4%;
+
+.searchevents_image {
+    max-width: 100%;
+    margin-top: 6px;
 }
-.credit{
-    margin-left: 4%;
+
+.credit {
+
     font-size: 10px;
     font-style: italic;
-}
-.searchevents_text{
-    margin-left: 4%;
-    font-size: 14px;
-}
-.follow{
-     font-size: 20px;
-    font-style: italic;
-    margin-left: 4%;
-}
-.follow_image{
-        max-width: 90%;
-    margin-left: 4%;
-}
-.follow_text{
-    margin-left: 4%;
-    font-size: 14px;
-}
-.proud{
-     font-size: 20px;
-    font-style: italic;
-    margin-left: 4%;
-}
-.proud_image{
-       max-width: 90%;
-    margin-left: 4%;
-}
-.proud_text{
-       margin-left: 4%;
-    font-size: 14px;
-}
-.ideas{
-        font-size: 20px;
-    font-style: italic;
-    margin-left: 4%;
-}
-.ideas_image{
-    max-width: 90%;
-    margin-left: 4%;
-}
-.ideas_text{
-      margin-left: 4%;
-    font-size: 14px;
-}
-.footer_image{
-    margin-top: 20%;
 
 }
-.by{
-    margin-left: 4%;
+
+.searchevents_text {
+
+    font-size: 16px;
+    margin-top: 3%;
+}
+
+.follow {
+    font-size: 22px;
+    font-style: italic;
+    text-decoration: underline;
+
+}
+
+.follow_image {
+    max-width: 100%;
+
+}
+
+.follow_text {
+
+    font-size: 16px;
+    margin-top: 3%;
+
+}
+
+.proud {
+    font-size: 22px;
+    font-style: italic;
+    text-decoration: underline;
+}
+
+.proud_image {
+    max-width: 100%;
+
+}
+
+.proud_text {
+
+    font-size: 16px;
+}
+
+.ideas {
+    font-size: 22px;
+    font-style: italic;
+    text-decoration: underline;
+
+}
+
+.ideas_image {
+    max-width: 100%;
+
+}
+
+.ideas_text {
+    font-size: 16px;
+}
+
+.footer_container {
+    margin-top: auto;
+
+}
+
+.by {
     font-size: 16px;
     font-style: italic;
 }
 
+@media only screen and (min-width: 927px) {
+    .article2 {
+        padding: 50px;
+    }
 
+    .title {
+        text-align: left;
+        font-size: 40px;
+        margin-left: auto;
 
+    }
 
+    .introduction {
+        font-size: 22px;
+        margin-left: auto;
+    }
+
+    .first {
+        display: flex;
+        align-content: center;
+        margin-top: 7%;
+    }
+
+    .searchevents_container {
+        margin-top: 1%;
+        margin-left: 5%;
+    }
+
+    .searchevents {
+        font-size: 30px;
+    }
+
+    .searchevents_image {
+        max-width: 90%;
+        margin-top: 10%;
+    }
+
+    .searchevents_text {
+        font-size: 22px;
+    }
+
+    .follow_container {
+        padding: 40px;
+        margin-left: 30%;
+    }
+
+    .follow {
+        font-size: 30px;
+    }
+
+    .follow_image {
+        max-width: 60%;
+
+    }
+
+    .follow_text {
+        font-size: 22px;
+    }
+
+    .second {
+        display: flex;
+        align-content: centeræ
+    }
+
+    .proud_container {
+        margin-top: 2%;
+        margin-left: 5%;
+
+    }
+
+    .proud {
+        font-size: 30px;
+        margin-top: 1%;
+    }
+
+    .proud_image {
+        max-width: 80%;
+        margin-top: 10%;
+    }
+
+    .proud_text {
+        font-size: 22px;
+    }
+
+    .ideas_container {
+        padding: 40px;
+        margin-left: 10%;
+    }
+
+    .ideas {
+        font-size: 30px;
+    }
+
+    .ideas_image {
+        max-width: 100%;
+        margin-top: 9%;
+    }
+
+    .ideas_text {
+        font-size: 22px;
+    }
+
+    .by {
+        margin-left: 5%;
+        font-size: 20px;
+    }
+}

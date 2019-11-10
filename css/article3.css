@@ -1,107 +1,228 @@
-.aricle3{
+.article3 {
     padding: 20px;
-    color: darkslategray;
+    color: #2D2323;
 }
-.title{
-    padding: 20px;
-    font-size: 25px;
+
+.title {
+    color: black;
     text-decoration: underline;
+    margin-top: 5%;
+    font-size: 30px;
+    margin-left: auto;
+    font-family: 'Lora', serif;
+    margin-left: 2%;
 }
-.introduction_text{
+
+.introduction_text {
     padding: 20px;
-    color: #F0A16A;
+    color: #E25520;
     font-style: italic;
     font-size: 16px;
 }
-.hobby{
-    font-size: 20px;
+
+.hobby {
+    font-size: 22px;
     font-style: italic;
-    color: darkslategray;
+    text-decoration: underline;
     padding: 20px;
 }
-.hobby_image{
+
+.hobby_image {
     padding: 20px;
     max-width: 100%;
 }
-.credit{
+
+.credit {
     padding: 20px;
     font-size: 10px;
     font-style: italic;
-    color: darkslategrey;
 }
-.hobby_text{
-    color: darkslategrey;
+
+.hobby_text {
+
     padding: 20px;
     font-size: 16px;
 }
-.link{
+
+.link {
     text-decoration: none;
-    color:#F0A16A;
+    color: #E25520;
     font-size: 16px;
     font-style: italic;
     text-decoration: underline;
 }
-.book{
-    font-size: 20px;
+
+.book {
+    font-size: 22px;
     font-style: italic;
-    color: darkslategray;
+    text-decoration: underline;
     padding: 20px;
 }
-.book_image{
+
+.book_image {
     padding: 20px;
     max-width: 100%;
 }
-.book_text{
-       color: darkslategrey;
+
+.book_text {
+
     padding: 20px;
     font-size: 16px;
 
 }
-.friends{
-     font-size: 20px;
+
+.friends {
+    font-size: 22px;
     font-style: italic;
-    color: darkslategray;
+    text-decoration: underline;
     padding: 20px;
 }
 
-.friends_image{
-      padding: 20px;
+.friends_image {
+    padding: 20px;
     max-width: 100%;
 }
-.friends_text{
-     color: darkslategrey;
+
+.friends_text {
+
     padding: 20px;
     font-size: 16px;
 }
-.list{
-     color: darkslategrey;
+
+.list {
     padding: 50px;
     font-size: 16px;
 }
-.try{
-         font-size: 20px;
+
+.try {
+    font-size: 22px;
     font-style: italic;
-    color: darkslategray;
+    text-decoration: underline;
     padding: 20px;
 }
-.try_image{
-          padding: 20px;
+
+.try_image {
+    padding: 20px;
     max-width: 100%;
 }
-.try_text{
-         color: darkslategrey;
+
+.try_text {
+
     padding: 20px;
     font-size: 16px;
 }
-.footer_image{
-    margin-top: 60px;
-}
-.by{
-padding: 20px;
-font-size: 18px;
+
+.by {
+    padding: 20px;
+    font-size: 18px;
     font-style: italic;
 }
 
+.footer_container {
+    margin-top: 3%;
+}
 
+@media only screen and (min-width:927px) {
+    .article3 {
+        padding: 50px;
+    }
 
+    .title {
+        text-align: left;
+        font-size: 40px;
+        margin-left: auto;
+    }
 
+    .introduction_text {
+        font-size: 22px;
+        text-align: left;
+        margin-left: auto;
+        margin-right: 20%;
+    }
+
+    .hobby {
+        font-size: 30px;
+    }
+
+    .hobby_image {
+        max-width: 40%;
+        margin-left: 60%;
+    }
+
+    .hobby_text {
+        margin-right: 55%;
+        margin-top: -35%;
+        font-size: 22px;
+    }
+
+    .credit {
+        margin-left: 60%;
+        font-size: 12px;
+    }
+
+    .link {
+        font-size: 22px;
+    }
+
+    .book {
+        font-size: 30px;
+    }
+
+    .book_image {
+        max-width: 40%;
+        margin-left: 60%;
+    }
+
+    .book_text {
+        margin-right: 55%;
+        margin-top: -35%;
+        font-size: 22px;
+    }
+
+    .friends {
+        margin-top: 3%;
+        font-size: 30px;
+    }
+
+    .friends_image {
+        max-width: 40%;
+        margin-left: 60%;
+    }
+
+    .friends_text {
+        margin-right: 55%;
+        margin-top: -30%;
+        font-size: 22px;
+    }
+
+    .text2 {
+        margin-top: 4%;
+        margin-right: 55%;
+        font-size: 22px;
+    }
+
+    .list {
+        font-size: 22px;
+    }
+
+    .try {
+        margin-top: 5%;
+        font-size: 30px;
+    }
+
+    .try_image {
+        max-width: 40%;
+        margin-left: 60%;
+    }
+
+    .try_text {
+        margin-right: 55%;
+        margin-top: -30%;
+        font-size: 22px;
+    }
+
+    .by {
+        font-size: 22px;
+        margin-top: 12%;
+    }
+}

@@ -1,6 +1,6 @@
 .article1 {
     padding: 20px;
-    color: darkslategrey;
+    color: #2D2323;
 
 }
 
@@ -9,11 +9,12 @@
     text-decoration: underline;
     margin-top: 5%;
     font-size: 30px;
-    margin-left: 4%;
+    margin-left: auto;
+    font-family: 'Lora', serif;
 }
 
 .paragraph1 {
-    color: #F0A16A;
+    color: #E25520;
     font-style: italic;
     font-size: 16px;
     margin-top: 4%;
@@ -21,161 +22,310 @@
 
 
 
+
 }
 
 .advantages {
-    text-decoration: underline;
+
     font-size: 25px;
-    font-style: italic;
-    margin-top: 35%;
-    margin-left: 4%;
+
 }
 
 .learning {
     font-size: 22px;
     font-style: italic;
     text-decoration: underline;
-    margin-left: 4%;
+
 }
 
 .learning_image {
-    max-width: 90%;
-    margin-left: 4%;
+    max-width: 100%;
     margin-top: 6px;
 }
 
 .credit {
     font-size: 9px;
-    margin-left: 4%;
     font-style: italic;
 }
 
 .learning_text {
     font-size: 16px;
-    padding: 20px
+
 }
 
 .touch {
-    margin-left: 4%;
     font-size: 22px;
     font-style: italic;
     text-decoration: underline;
-
+    margin-top: 6%
 }
 
 .touch_image {
-    max-width: 90%;
-    margin-left: 4%;
+    max-width: 100%;
+
     margin-top: 6px;
 }
 
 .touch_text {
     font-size: 16px;
-    padding: 20px
+
 }
 
 .inspiration {
-    margin-left: 4%;
+
     font-size: 22px;
     font-style: italic;
     text-decoration: underline;
+    margin-top: 7%
 }
 
 .inspiration_image {
-    max-width: 90%;
-    margin-left: 4%;
+    max-width: 100%;
+
     margin-top: 6px;
 }
 
 .inspiration_text {
     font-size: 16px;
-    padding: 20px
+
 }
 
 .events {
-    margin-left: 4%;
+
     font-size: 22px;
     font-style: italic;
     text-decoration: underline;
-
+    margin-top: 7%
 }
 
 .events_image {
-    max-width: 90%;
-    margin-left: 4%;
+    max-width: 100%;
     margin-top: 6px;
 }
 
 .events_text {
     font-size: 16px;
-    padding: 20px
+
 }
 
 .disadvantages {
-    text-decoration: underline;
+
     font-size: 25px;
-    font-style: italic;
     margin-top: 5%;
-    margin-left: 4%;
 }
 
 .addiction {
-    margin-left: 4%;
     font-size: 22px;
     font-style: italic;
     text-decoration: underline;
 }
 
 .addiction_image {
-    max-width: 91%;
-    margin-left: 4%;
+    max-width: 100%;
     margin-top: 8px;
 }
 
 .addiction_text {
     font-size: 16px;
-    padding: 20px
+
 }
-.hurtful{
-       margin-left: 4%;
+
+.hurtful {
+
     font-size: 22px;
     font-style: italic;
     text-decoration: underline;
+    margin-top: 7%;
 }
+
 .hurtful_image {
-    max-width: 90%;
-    margin-left: 4%;
+    max-width: 100%;
+
     margin-top: 8px;
 }
 
 .hurtful_text {
     font-size: 16px;
-    padding: 20px
+    margin-top: 2%;
+
 }
 
 .stereotype {
-    margin-left: 4%;
+
     font-size: 22px;
     font-style: italic;
     text-decoration: underline;
+    margin-top: 5%
 }
 
 .stereotype_image {
-    max-width: 96%;
-    margin-left: 4%;
+    max-width: 100%;
     margin-top: 8px;
     margin-top: 10px;
 }
 
 .stereotype_text {
     font-size: 16px;
-    padding: 20px
+    margin-top: 3%;
+
 }
-.by{
-    padding: 20px;
+
+.by {
+
     text-decoration: underline;
     font-style: italic;
 }
-.footer_image{
-    margin-top:0%;
+
+.footer_container {
+    margin-top: auto;
+}
+
+@media only screen and (min-width: 927px) {
+    .article1 {
+        padding: 50px;
+    }
+
+    .title {
+        text-align: left;
+        font-size: 40px;
+        margin-left: auto;
+
+    }
+
+    .paragraph1 {
+        font-size: 22px;
+        text-align: left;
+        margin-left: auto;
+
+    }
+
+    .advantages {
+        font-size: 35px;
+    }
+
+
+    .learning {
+        font-size: 30px;
+    }
+
+    .learning_image {
+        max-width: 35%;
+        margin-left: 60%;
+
+    }
+
+    .learning_text {
+        margin-right: 55%;
+        margin-top: -25%;
+        font-size: 22px;
+    }
+
+    .credit {
+        margin-left: 60%;
+        font-size: 12px;
+    }
+
+    .touch {
+        margin-top: 10%;
+        font-size: 30px;
+    }
+
+    .touch_image {
+        max-width: 35%;
+        margin-left: 60%;
+    }
+
+    .touch_text {
+        margin-right: 55%;
+        margin-top: -25%;
+        font-size: 22px;
+
+    }
+
+    .inspiration {
+        font-size: 30px;
+    }
+
+    .inspiration_image {
+        max-width: 35%;
+        margin-left: 60%;
+
+
+    }
+
+    .inspiration_text {
+        margin-right: 55%;
+        margin-top: -25%;
+        font-size: 22px;
+    }
+
+    .events {
+        font-size: 30px;
+    }
+
+    .events_image {
+        max-width: 35%;
+        margin-left: 60%;
+    }
+
+    .events_text {
+        margin-right: 55%;
+        margin-top: -25%;
+        font-size: 22px;
+    }
+
+    .disadvantages {
+        margin-top: 20%;
+        font-size: 35px;
+    }
+
+    .addiction {
+        font-size: 30px;
+        margin-top: 5%;
+    }
+
+    .addiction_image {
+        max-width: 35%;
+        margin-left: 60%;
+    }
+
+    .addiction_text {
+        margin-right: 55%;
+        margin-top: -25%;
+        font-size: 22px;
+    }
+
+    .hurtful {
+        font-size: 30px;
+    }
+
+    .hurtful_image {
+        max-width: 35%;
+        margin-left: 60%;
+    }
+
+    .hurtful_text {
+        margin-right: 55%;
+        margin-top: -25%;
+        font-size: 22px;
+    }
+
+    .stereotype {
+        font-size: 30px;
+    }
+
+    .stereotype_image {
+        max-width: 35%;
+        margin-left: 60%;
+    }
+
+    .stereotype_text {
+        margin-right: 55%;
+        margin-top: -25%;
+        font-size: 22px;
+    }
+    .by{
+        font-size: 25px;
+        margin-top: 12%;
+    }
 }
